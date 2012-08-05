@@ -10,7 +10,6 @@ Example usage:
 
 python bbfdetect_wrapper.py --image ./faces.jpg
 
-[{'y': 80, 'width': 46, 'confidence': 7.184594, 'height': 46, 'x': 371}, {'y': 278, 'width': 36, 'confidence': -1.564904, 'height': 36, 'x': 503}, {'y': 53, 'width': 47, 'confidence': 3.803873, 'height': 47, 'x': 289}, {'y': 88, 'width': 47, 'confidence': 4.719907, 'height': 47, 'x': 445}, {'y': 55, 'width': 53, 'confidence': -0.12583, 'height': 53, 'x': 177}, {'y': 93, 'width': 56, 'confidence': -1.443526, 'height': 56, 'x': 78}]
-
+[{'y': 159, 'width': 33, 'confidence': 2.56699, 'height': 33, 'x': 237}, {'y': 158, 'width': 44, 'confidence': 6.200849, 'height': 44, 'x': 447}, {'y': 219, 'width': 53, 'confidence': 5.060024, 'height': 53, 'x': 365}, {'y': 231, 'width': 54, 'confidence': 0.210586, 'height': 54, 'x': 495}, {'y': 192, 'width': 46, 'confidence': 2.897291, 'height': 46, 'x': 159}, {'y': 190, 'width': 51, 'confidence': 4.579619, 'height': 51, 'x': 286}, {'y': 145, 'width': 81, 'confidence': -3.323252, 'height': 81, 'x': 295}]
 
 It returns a list of dictionary elements for x, y, width, height, confidence values per detected face.
