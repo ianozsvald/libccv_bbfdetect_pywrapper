@@ -52,9 +52,8 @@ def find_faces(image_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--image', help="Image file with path, e.g. '/home/ian/workspace/libccv/liuliu-ccv-43ec190/faces/faces1.jpg'")
+    parser.add_argument('-i', '--image', required=True, help="Image file with path, e.g. '/home/ian/workspace/libccv/liuliu-ccv-43ec190/faces/faces1.jpg'")
     args = parser.parse_args()
-    #print args
     if not os.path.exists(args.image):
         print "You must supply a valid image file, %s does not exist" % (args.image)
         sys.exit(1)
